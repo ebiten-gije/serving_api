@@ -54,7 +54,7 @@ The example is {"prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, a
         return None
 
 
-@app.post("/generate")
+@app.post("/translate")
 async def generate(input_text: TextInput):
     response_text = process_text(input_text.text)
     print(input_text)

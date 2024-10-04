@@ -48,7 +48,7 @@ The example is {"prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, a
         return None
 
 
-@app.route('/generate', methods=['POST'])
+@app.route('/translate', methods=['POST'])
 def generate():
     data = request.json
     input_text = data.get('text')
