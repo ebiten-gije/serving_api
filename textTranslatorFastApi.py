@@ -8,5 +8,5 @@ app.include_router(text_translater)
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("textTranslater:app", host="0.0.0.0", port=4444, reload=True)
-# uvicorn textTranslaterFastApi:app --host 0.0.0.0 --port 4444 --reload
+    uvicorn.run("textTransloter:app", host="0.0.0.0", port=4444, reload=True)
+# uvicorn textTranslatorFastApi:app --host 0.0.0.0 --port 4444 --reload

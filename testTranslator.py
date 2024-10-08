@@ -57,12 +57,13 @@ The example is {"prompt": "score_9, score_8_up, score_7_up, score_6_up, 1girl, a
 
 
 def main():
-    input_text = input("Enter the story: ")  # 사용자 입력을 받음
-    response_text = process_text(input_text)  # 입력된 텍스트 처리
+    while True:
+        input_text = input("Enter the story: ")  # 사용자 입력을 받음
+        response_text = process_text(input_text)  # 입력된 텍스트 처리
 
-    if response_text:
-        print("Processing result:")
-        print(response_text)  # 처리 결과 출력
+        if response_text:
+            print("Processing result:")
+            print(response_text)  # 처리 결과 출력
 
 if __name__ == "__main__":
     main()

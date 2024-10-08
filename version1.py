@@ -64,5 +64,5 @@ async def generate(input_text: TextInput):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("textTranslaterFastApi:app", host="0.0.0.0", port=4444, reload=True)
-    # uvicorn textTranslaterFastApi:app --host 0.0.0.0 --port 4444 --reload
+    uvicorn.run("textTranslatorFastApi:app", host="0.0.0.0", port=4444, reload=True)
+    # uvicorn textTranslatorFastApi:app --host 0.0.0.0 --port 4444 --reload
